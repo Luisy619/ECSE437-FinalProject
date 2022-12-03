@@ -1,16 +1,29 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Espresso implements Coffee {
+    private String name = "Espresso";
+    private double price = 2.99;
+    private ArrayList<String> temperature = new ArrayList<>(List.of("hot", "cold"));
+    private ArrayList<String> ingredients = new ArrayList<>(List.of("coffee bean", "water"));
+
     @Override
-    public void name() {
-        System.out.println("Espresso");
+    public String getName() {
+        return name;
     }
 
     @Override
-    public void recipe() {
-        System.out.println("Brew groud coffee bean of your choice!");
+    public double getPrice() {
+        return price;
     }
 
     @Override
-    public void price() {
-        System.out.println("4.99");
+    public ArrayList<String> getTemperature() {
+        return temperature;
+    }
+
+    @Override
+    public ArrayList<String> getIngredients() {
+        return ingredients;
     }
 }
