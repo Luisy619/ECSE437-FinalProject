@@ -1,3 +1,5 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,6 +13,14 @@ public class Cafe {
 
     public String getCafeName(){
         return name;
+    }
+
+    public ArrayList<Coffee> getMenu(){
+        return menu;
+    }
+
+    public void addMenu(Coffee c){
+        menu.add(c);
     }
 
     public static void displayMenu(){

@@ -1,11 +1,13 @@
+package src;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Espresso implements Coffee {
-    private String name = "Espresso";
-    private double price = 2.99;
-    private String temperature = "Hot";
-    private ArrayList<String> ingredients = new ArrayList<>(List.of("coffee bean", "water"));
+public class Cappuccino implements Coffee {
+    private String name = "Cappuccino";
+    private double price = 4.99;
+    private String temperature = "Hot/Cold";
+    private ArrayList<String> ingredients = new ArrayList<>(List.of("coffee bean", "water", "milk"));
 
     @Override
     public String getName() {
