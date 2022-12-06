@@ -4,7 +4,7 @@ import java.util.List;
 public class Espresso implements Coffee {
     private String name = "Espresso";
     private double price = 2.99;
-    private Boolean temperature = true;
+    private String temperature = "Hot";
     private ArrayList<String> ingredients = new ArrayList<>(List.of("coffee bean", "water"));
 
     @Override
@@ -18,7 +18,7 @@ public class Espresso implements Coffee {
     }
 
     @Override
-    public Boolean getTemperature() {
+    public String getTemperature() {
         return temperature;
     }
 
