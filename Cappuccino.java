@@ -4,7 +4,7 @@ import java.util.List;
 public class Cappuccino implements Coffee {
     private String name = "Cappuccino";
     private double price = 4.99;
-    private String temperature = "Hot / Cold";
+    private String temperature = "Hot/Cold";
     private ArrayList<String> ingredients = new ArrayList<>(List.of("coffee bean", "water", "milk"));
 
     @Override
