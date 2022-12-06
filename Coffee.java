@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+
 public interface Coffee {
-    public void name();
-    public void recipe();
-    public void price();
+    public String getName();
+    public double getPrice();
+    public Boolean getTemperature();
+    public ArrayList<String> getIngredients();
 }
