@@ -9,6 +9,13 @@
             "name": "Launch Cafe",
             "request": "launch",
             "mainClass": "src.Cafe",
+            "projectName": "ECSE437-FinalProject_f1115c30"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cafe",
+            "request": "launch",
+            "mainClass": "src.Cafe",
             "projectName": "ECSE437-FinalProject_b490f16c"
         },
         {
