@@ -23,6 +23,13 @@ public class CoffeeTest {
     }
 
     @Test                                               
+    @DisplayName("Get Price")   
+    void testGetPrice() {
+        assertEquals(4.99, flatWhite.getPrice(),     
+                "It should properly show the price of the coffee");
+    }
+
+    @Test                                               
     @DisplayName("Get availble Temperature")   
     void testGetTemperature() {
         assertEquals("Hot/Cold", flatWhite.getTemperature(),     
